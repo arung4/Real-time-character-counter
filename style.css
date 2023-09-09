@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Oswald:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,600;1,700&family=REM:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500;1,600&family=Tajawal:wght@300&display=swap');
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{ 
+font-family: 'Merriweather', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Tajawal', sans-serif;
+height:100vh;
+width:100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background:#ffdc4c;
+font-weight: bold;
+  }
+
+  .counter{
+    text-align: center;
+    padding:20px 20px;
+    background:#00e785;
+    width:600px;
+    box-shadow: 1px 2px 8px 8px black;
+    border-radius: 8px;
+    position: relative;
+  }
+  #delete{
+    position:absolute;
+    right:20px;
+    top:30px;
+    font-size:28px;
+    cursor: pointer;
+    transition:.2s;
+  }
+  #delete:hover{
+    color:red;
+  }
+  textarea{
+    width:93%;
+    height:200px;
+    border-radius: 8px;
+    outline:none;
+    resize:none;
+    padding:15px 15px;
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+    text-align: justify;
+    background: #fdfdf9;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 5px black;
+  }
+  .status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 22px;
+  }
+  .status .common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    background-color: yellow;
+    padding:2px 8px;
+    border-radius: 5px;
+    width:240px;
+    box-shadow: 1px 2px 4px 4px black;
+  }
+
+  p{
+    padding:5px 5px;
+    color:black;
+  }
+  #total-char{
+    color:rgb(43, 43, 207);
+  }
+  #remaining{
+    color:red;
+  }
+
